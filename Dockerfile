@@ -1,3 +1,3 @@
 FROM sonarqube:lts
 
-COPY sonarqube/run.sh $SONARQUBE_HOME/bin/run.sh
+COPY run.sh $SONARQUBE_HOME/bin/run.sh
